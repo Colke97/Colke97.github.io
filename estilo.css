@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(77, 75, 75);
+    height: 150vh;
+}
+
+.cajas{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: rgb(23, 119, 138);
+}
+
+.caja-principal{
+    padding: 30px;
+}
+
+.caja-1{
+    background-color: rgb(13, 13, 13);
+    width: 35%;
+    float: left;
+    height: 1000px;
+}
+
+.caja-2{
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.perfil{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.boton{
+    display: block;
+    margin: 0 auto;
+    background-color: #00000000;
+    border-color: #00000000;
+    color: #00ffff;
+}
+.cuadrado{
+    background-color: #00000000;
+}
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+
+h1{
+    color: rgb(0, 143, 215);
+    font-family: system-ui;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 170, 255);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#progress1{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 98%;
+    padding: 3px;
+}
+
+#progress1:after{
+    content: "";
+    display: block;
+    background-color: rgb(29, 135, 228);
+    border-radius: 9px;
+    height: 8px;
+    width: 95%;
+}
+
+#progress2{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 98%;
+    padding: 3px;
+}
+
+#progress2:after{
+    content: "";
+    display: block;
+    background-color: rgb(29, 135, 228);
+    border-radius: 9px;
+    height: 8px;
+    width: 95%;
+}
+
+#progress3{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 98%;
+    padding: 3px;
+}
+
+#progress3:after{
+    content: "";
+    display: block;
+    background-color: rgb(29, 135, 228);
+    border-radius: 9px;
+    height: 8px;
+    width: 90%;
+}
+
+.datos{text-align: center;}
+.datos h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+}
+
+.datos p{
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.hr1{
+    margin: 30px;
+}
+
+.contenido-2{
+    padding-top: 24px;
+}
+
+.exp{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.para-1{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin: 5px 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.para-2{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
